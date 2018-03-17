@@ -1,7 +1,6 @@
-import "./styles.mobile.scss";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function showMessage() {
-  alert("Hello, mobile world!!");
-}
+import Mobile from './components/Mobile'
 
-window.addEventListener("load", showMessage);
+ReactDOM.render(<Mobile />, document.getElementById('root'))

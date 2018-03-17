@@ -1,7 +1,6 @@
-import "./styles.scss";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function showMessage() {
-  alert("Hello, world!");
-}
+import App from './components/App'
 
-window.addEventListener("load", showMessage);
+ReactDOM.render(<App />, document.getElementById('root'))
